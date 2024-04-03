@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+</head>
+<body>
+    <h2>Register here</h2>
+    <form method = "get"> <!--does not display data in address box -->
+    <!--<form method = "post" action = "abc.jsp"> doesn't display data in address bar-->
+    <label>Username: </label><input type = "text" maxlength = "8" required/> <!-- inserts a textbox --> <br>
+    Password: <input type = "text" name = "pass" /> <br>
+    Email: <input type = "email" name = "email" /> <br>
+    Phone: <input type="number" name = "ph"/> <br>
+    Tel: <input type = "number" name = "tel"/> <br>
+    Age: <input type = "number" max = "100" min = "18" name = "age" /> <br>
+    Gender: <br>
+    <input type = "radio" name = "gender" value = "male" id = "male" /> <label for ="male">Male </label> <br>
+    <input type="radio" name = "gender" value = "female" id="female"/> <label for ="female"> Female</label> <br>
+    <input type ="radio" name = "gender" value = "notsay" id="notsay"/> <label for ="notsay">Rather not say </label> <br>
+    <textarea rows = "4" cols = "30"> Address Here </textarea> <br>
+    <input type = "checkbox"/> I accept the terms <br>
+    Your Favorite color <input type = "color"/> <br>
+    DOB and time <input type = "date"/> <br>
+    Profile Pic<input type = "file"/> <br>
+    check password <input type = "password"/><br>
+    <input type ="checkbox" id = "terms" name = "terms" value ="terms"><label for ="terms"> I accept the terms</label> <br>
+    <input type = "submit" value = "Submit"/>
+    <input type ="reset"/> <!-- work in inside of form-->
+    </form>
+    <!--Submit-->
+</body>
+</html>
